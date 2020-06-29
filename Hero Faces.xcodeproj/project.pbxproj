@@ -13,6 +13,11 @@
 		006A305924AA3E630071A879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006A305724AA3E630071A879 /* Main.storyboard */; };
 		006A305B24AA3E640071A879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006A305A24AA3E640071A879 /* Assets.xcassets */; };
 		006A305E24AA3E640071A879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006A305C24AA3E640071A879 /* LaunchScreen.storyboard */; };
+		006A306724AA665A0071A879 /* Vitrual Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A306624AA665A0071A879 /* Vitrual Content.swift */; };
+		006A306B24AA685C0071A879 /* TexturedFaceIronMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A306A24AA685C0071A879 /* TexturedFaceIronMan.swift */; };
+		006A306D24AA68790071A879 /* TexturedFaceBatMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A306C24AA68790071A879 /* TexturedFaceBatMan.swift */; };
+		006A306F24AA688D0071A879 /* TexturedFaceHulk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A306E24AA688D0071A879 /* TexturedFaceHulk.swift */; };
+		006A307124AA689D0071A879 /* TexturedFaceFlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A307024AA689D0071A879 /* TexturedFaceFlash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		006A305A24AA3E640071A879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		006A305D24AA3E640071A879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		006A305F24AA3E640071A879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006A306624AA665A0071A879 /* Vitrual Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vitrual Content.swift"; sourceTree = "<group>"; };
+		006A306A24AA685C0071A879 /* TexturedFaceIronMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexturedFaceIronMan.swift; sourceTree = "<group>"; };
+		006A306C24AA68790071A879 /* TexturedFaceBatMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexturedFaceBatMan.swift; sourceTree = "<group>"; };
+		006A306E24AA688D0071A879 /* TexturedFaceHulk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexturedFaceHulk.swift; sourceTree = "<group>"; };
+		006A307024AA689D0071A879 /* TexturedFaceFlash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexturedFaceFlash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		006A305024AA3E630071A879 /* Hero Faces */ = {
 			isa = PBXGroup;
 			children = (
+				006A306524AA66210071A879 /* Face Overlay */,
 				006A305124AA3E630071A879 /* AppDelegate.swift */,
 				006A305324AA3E630071A879 /* art.scnassets */,
 				006A305524AA3E630071A879 /* ViewController.swift */,
@@ -65,6 +76,18 @@
 				006A305F24AA3E640071A879 /* Info.plist */,
 			);
 			path = "Hero Faces";
+			sourceTree = "<group>";
+		};
+		006A306524AA66210071A879 /* Face Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				006A306624AA665A0071A879 /* Vitrual Content.swift */,
+				006A306A24AA685C0071A879 /* TexturedFaceIronMan.swift */,
+				006A306C24AA68790071A879 /* TexturedFaceBatMan.swift */,
+				006A306E24AA688D0071A879 /* TexturedFaceHulk.swift */,
+				006A307024AA689D0071A879 /* TexturedFaceFlash.swift */,
+			);
+			path = "Face Overlay";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006A306D24AA68790071A879 /* TexturedFaceBatMan.swift in Sources */,
+				006A306B24AA685C0071A879 /* TexturedFaceIronMan.swift in Sources */,
+				006A306724AA665A0071A879 /* Vitrual Content.swift in Sources */,
 				006A305624AA3E630071A879 /* ViewController.swift in Sources */,
 				006A305224AA3E630071A879 /* AppDelegate.swift in Sources */,
+				006A307124AA689D0071A879 /* TexturedFaceFlash.swift in Sources */,
+				006A306F24AA688D0071A879 /* TexturedFaceHulk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
